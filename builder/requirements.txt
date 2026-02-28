@@ -1,0 +1,5 @@
+langgraph
+psycopg2-binary
+sentence-transformers
+uuid
+python-dotenv

@@ -1,0 +1,47 @@
+*.md
+!README.md
+
+# OS/editor metadata
+.DS_Store
+.vscode/
+.idea/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# Local env/config secrets
+.env
+.env.*
+!.env.example
+
+# Coverage/test/build artifacts
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+
+# Runtime logs/temp files
+*.log
+*.tmp
+*.swp
+.codex_last_prompt.txt
+.codex_last_plan.json
+
+# Transient local smoke artifacts
+*_artifact.py
+langgraph_smoke.py
+langgraph_resume_smoke.py
+graph_debug_smoke.py
